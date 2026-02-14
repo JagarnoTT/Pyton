@@ -1,12 +1,22 @@
 import time;
 import random;
 
+def relatorio(historico):
+
+    historicoMAximo = max(historico);
+    historicoDano = len(historico);
+
+    for i in range (len(historico)):
+        print(f"Dano {i + 1}: {historico[i]} pontos ao HP do boss");
+    
+    print(f"Parabéns, você derrotou o Boss! Com um total de {historicoDano} ataques! Com seu maior dano sendo de {historicoMAximo} pontos!");
+
 print(f"Bem vindo ao segundo RPG Dev");
 print(f"Prepare-se para uma batalha épica contra um Boss mais poderoso!");
 print(f"Para sair do jogo digite 'sair' quando for solicitado a inserir um dano crítico.");
 print('_' * 50);
 
-boss = 1500;
+boss = 250;
 print(f"Você vai enfrentar um Boss com {boss} HP!");
 print('_' * 50);
 time.sleep(3);
@@ -47,14 +57,8 @@ while boss > 0:
 
     if boss <= 0:
 
-        historicoMAximo = max(historico);
-        historicoDano = len(historico);
+        relatorio(historico);
 
-
-        for i in range (len(historico)):
-            print(f"Dano {i + 1}: {historico[i]} pontos ao HP do boss");
-        print(f"Parabéns, você derrotou o Boss! Com um total de {historicoDano} ataques! Com seu maior dano sendo de {historicoMAximo} pontos!");
-        break;
     
     else:
         print(f"O Boss ainda tem {boss} pontos de vida restantes, continue a batalha.");
