@@ -58,7 +58,5 @@ while boss > 0:
     if boss <= 0:
 
         relatorio(historico);
-
-    
     else:
         print(f"O Boss ainda tem {boss} pontos de vida restantes, continue a batalha.");
