@@ -1,0 +1,4 @@
+Escrevendo dentro de um arquivo de texto
+Escrevendo dentro de um arquivo de texto
+Acentuação correta: á, é, í, ó, ú, ç
+--------------------------------------------------
