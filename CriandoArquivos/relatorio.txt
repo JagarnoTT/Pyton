@@ -1,0 +1,2 @@
+Operador: Ericles
+Temperatura da caldeira: 90.0ºC
