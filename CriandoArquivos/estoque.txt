@@ -1,11 +1,3 @@
 Caneta
-Tesoura
-Borracha
-Estojo
-Folha sufite
-Grafite
-Grafiteira
-Giz
-Grampeador
-Grampo
-Mouse
+Caderno
+Folha A4
