@@ -8,12 +8,14 @@ try:
 #----------------------------------------------------------------------------------------
     print("ESTOQUE ATUALIZADO!!")
 
-    with open("estoque.txt", "r", encoding="utf-8")as arquivoLer:
+    with open("estoque1.txt", "r", encoding="utf-8")as arquivoLer:
         conteudo = arquivoLer.read();
 
     print(conteudo + "\n");
 
     print("ESTOQUE ATUALIZADO!!")
 
-except:
-    print("Ocorreu um erro ao tentar adicionar o material. Por favor, tente novamente.");
+except FileNotFoundError:
+    print ("Ocorreu um erro ao tentar acessar o arquivo estoque.txt. Por favor, tente novamente.");
+except Exception as e:
+    print (f"Ocorreu um erro inesperado: {e}");

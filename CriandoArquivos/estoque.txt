@@ -7,3 +7,5 @@ Grafite
 Grafiteira
 Giz
 Grampeador
+Grampo
+Mouse
