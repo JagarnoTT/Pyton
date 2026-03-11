@@ -1,3 +1,4 @@
 Caneta
-Caderno
+Borracha
 Folha A4
+Lapis

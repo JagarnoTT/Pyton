@@ -14,6 +14,7 @@ def adicionar_item():
     except Exception as e:
         print(f"Ocorreu um erro inesperado: {e}");
 #----------------------------------------------------------------------------------------
+def Listar_estoque():
     print("Alteração no estoque identificada!!");
     try:
         with open("estoque.txt", "r", encoding="utf-8") as arquivo_atualizado:
@@ -25,3 +26,4 @@ def adicionar_item():
     except Exception as e:
         print("Ocorreu um erro inesperado: {e}");
 adicionar_item();
+Listar_estoque();
