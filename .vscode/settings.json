@@ -1,0 +1,38 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "jagarnot",
+      "group": "jagarnot",
+      "database": "jagarnot",
+      "username": "jagarnot"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "password": "jagarnot",
+      "username": "jagarnot",
+      "database": "sql",
+      "name": "jagarnot"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "CockroachDB",
+      "name": "jagarnot",
+      "group": "jagarnot",
+      "database": "jagarnot",
+      "username": "jagarnot",
+      "password": "jagarnot"
+    }
+  ]
+}
