@@ -1,0 +1,17 @@
+{
+    "Equipamento_1": {
+        "Nome": "Bomba",
+        "Status": "Ativo",
+        "Temperadura": 85
+    },
+    "Equipamento_2": {
+        "Nome": "Redentor",
+        "Status": "Bloquado",
+        "Temperadura": 40
+    },
+    "Equipamento_3": {
+        "Nome": "Filtro",
+        "Status": "Ativo",
+        "Temperadura": 65
+    }
+}
