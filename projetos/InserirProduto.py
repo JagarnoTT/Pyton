@@ -9,5 +9,4 @@ def cadastar_produto(nome, codigo_barras, validade, quantidade, valor_unitario, 
 
     dados_do_produto = (nome, codigo_barras, validade, quantidade, valor_unitario, observacao)
 
-    try:
-        cursor.execute(comando_sql, dados)
+    cursor.execute(comando_sql, dados)
